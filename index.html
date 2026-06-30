@@ -80,9 +80,8 @@
     .rtable td:first-child::before{ content:""; }
   }
 
-  /* Móvil en VERTICAL: el log se ajusta (sin scroll) y se sugiere girar el móvil */
+  /* Móvil en VERTICAL: el log se mantiene alineado (con scroll) y se sugiere girar el móvil */
   @media (max-width:720px) and (orientation:portrait){
-    .console{ white-space:pre-wrap; overflow-wrap:break-word; font-size:9.5px; line-height:1.5; padding:14px 12px; }
     .log-hint{ display:flex; }
   }
   /* Móvil/tablet en HORIZONTAL: el log cabe alineado y a buen tamaño */
